@@ -1,0 +1,4 @@
+#!/bin/sh
+
+DIR=$(pwd)
+st -d ${DIR} &
