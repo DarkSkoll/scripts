@@ -1,4 +1,4 @@
 #!/bin/sh
 
 DIR=$(pwd)
-st -d ${DIR} &
+st -d ${DIR} &> /dev/null &
