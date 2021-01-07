@@ -16,4 +16,4 @@ XCB Tutorial    https://www.x.org/releases/current/doc/libxcb/tutorial/index.htm
 XLib Tutorial   https://tronche.com/gui/x/xlib/introduction/
 Regex           https://regex101.com/
 "
-echo "$bookmarks" | grep -P "^$(echo "$bookmarks" | grep "https:" | sed -E "s/\s{2,}.*//g" | dmenu -i -p "Bookmarks" -l 20 | awk '{print $1}')\s" | sed -E "s/.*\s{2,}//g" | xargs -r firefox
+echo "$bookmarks" | grep -P "^$(echo "$bookmarks" | grep "https:" | sed -E "s/\s{2,}.*//g" | dmenu -i -p "Bookmarks" -l 20 | awk '{print $1}')\s" | sed -E "s/.*\s{2,}//g" | xargs -r $BROWSER
