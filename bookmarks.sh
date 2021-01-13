@@ -1,6 +1,8 @@
 #!/bin/sh
 
 bookmarks="
+Facebook        https://www.facebook.com/
+Dotshareit      http://dotshare.it/
 Reddit          https://old.reddit.com/hot/
 WhatsApp        https://web.whatsapp.com/
 Gmail           https://mail.google.com/mail/u/0/#inbox
