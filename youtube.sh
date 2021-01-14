@@ -13,7 +13,7 @@ query="${query// /+}"
 echo "$query"
 
 # YT_API_KEY location
-YT_API_KEY="$(cat api)"
+YT_API_KEY="$(cat "$XDG_DATA_HOME"/apis/youtube)"
 urlstring="https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&type=video&maxResults=20&key=${YT_API_KEY}"
 
 mpv "https://$( curl -s "${urlstring}" \
