@@ -4,6 +4,7 @@ bookmarks="
 DuckDuckGo      https://start.duckduckgo.com/
 Facebook        https://www.facebook.com/
 Google Dev      https://console.developers.google.com/home/dashboard?project=searcher-301719
+Suckless        https://suckless.org/
 Dotshareit      http://dotshare.it/
 Reddit          https://old.reddit.com/hot/
 r/Unixporn      https://old.reddit.com/r/unixporn
